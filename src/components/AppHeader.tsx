@@ -19,8 +19,6 @@ export default AppHeader;
 
 const styles = StyleSheet.create({
   container: {
-    display: 'flex',
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
@@ -37,7 +35,7 @@ const styles = StyleSheet.create({
     color: COLORS.White,
   },
   emptyMovieContainer: {
-    height: 40,
+    height: SPACING.space_20 * 2,
     width: SPACING.space_20 * 2,
   },
   iconBackground: {
